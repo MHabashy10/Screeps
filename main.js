@@ -103,6 +103,7 @@ module.exports.loop = function() {
 
             // when full energy create EXTENSION to store energy
             console.log('creating extension ');
+            // create the extension relative to the spawn position and  extensions already exist
             Game.rooms[name].createConstructionSite(spawn_pos.x + extensions + 1, spawn_pos.y + extensions + 1, STRUCTURE_EXTENSION);
 
         }
