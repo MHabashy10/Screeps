@@ -1,18 +1,18 @@
 ![Screeps](https://screeps.com/a/components/top/logo.png)
 
-## My Implementation for Screeps Game
+##  Screeps Game Implementation For Powerful Colony.
 
 
 ## Main Purpose:
-           -Upgrade our Room Controller.
-           -Build structures.
+* Upgrade our Room Controller.
+* Build structures.
   
   
   We have 2 main roles here Harvest/Build and Upgrade creeps.
   
-   -Upgrader creeps should work on upgrading the Room Controller.
+   * Upgrader creeps should work on upgrading the Room Controller.
   
-   -Harvester/Builder creep should work on building and energizing structures.<br>
+   * Harvester/Builder creep should work on building and energizing structures.<br>
   if harvesters doesn't found structures needs energy then convert them to builders to build structures.<br>
   if builder doesn't found construction sites to build then convert them to harvesters to energize structures.
         <br>     ***note***  we don't convert all creeps at once instead we convert one by one so we can have a building and energizing case

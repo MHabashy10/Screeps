@@ -1,7 +1,7 @@
 /**
  * 
  *  Fleetster  Node.js Developer.
- * Test Assignment
+ *     Test Assignment
  * 
  *  
  *      Description:
@@ -20,16 +20,18 @@
  * if harvesters doesn't found structures needs energy then convert them to builders to build structures.
  * if builder doesn't found construction sites to build then convert them to harvesters to energize structures.
  *          note about converting we don't convert all creeps at once instead we convert one by one so we can have a building and energizing case
+ * 
+ * 
  * Tips
  * 
  * More Extensions MORE powerful Creeps
- * we should dynamically add parts to creeps based on the energyAvailable     bodyCreator function
+ *      we should dynamically add parts to creeps based on the energyAvailable     bodyCreator function
  * 
  * Bigger Colony Bigger Resources
- * we should every time we had full energyCapacityAvailable build an extension to push the current capacity limit for more energy reservation
+ *      we should every time we had full energyCapacityAvailable build an extension to push the current capacity limit for more energy reservation
  *  
- *  Dying creeps 
- * we should regenerate (powerful if we can)  creeps and maintain the 2 roles of creeps equally as many as extension we have 
+ * Dying creeps 
+ *      we should regenerate (powerful if we can)  creeps and maintain the 2 roles of creeps equally as many as extension we have 
  * 
  * 
  * @author     Mohamed Habashy <mohamed.habshey10@gmail.com>
@@ -45,7 +47,7 @@ var roleBuilder = require('role.builder');
 
 
 // Loop Module will be execute with every tick
-module.exports.loop = function() {
+module.exports.loop = function () {
 
     // current number of extensions available
     var extensions = 0;
@@ -166,7 +168,7 @@ module.exports.loop = function() {
 
     /**
      * Keeping creeps from dying 
-     * we need to maintain harvesters and upgrades as many as we have extensions
+     * we need to maintain harvesters and upgraders as many as we have extensions
      * 
      * 
      */
