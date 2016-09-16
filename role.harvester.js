@@ -32,8 +32,6 @@ var roleHarvester = {
             if (creep.harvest(sources[0]) == ERR_NOT_IN_RANGE) {
                 // move one tick closer to the source
                 creep.moveTo(sources[0]);
-                 // say harvesting for better game visibility 
-                creep.say('harvesting');
             }
         }
         else {
