@@ -8,11 +8,11 @@
 * Build structures.
   
   
-  We have 2 main roles here Harvest/Build and Upgrade creeps.
+### We have 2 main roles here Harvest/Build and Upgrade creeps.
   
-   * Upgrader creeps should work on upgrading the Room Controller.
+  * Upgrader creeps should work on upgrading the Room Controller.
   
-   * Harvester/Builder creep should work on building and energizing structures.<br>
+  * Harvester/Builder creep should work on building and energizing structures.<br>
   if harvesters doesn't found structures needs energy then convert them to builders to build structures.<br>
   if builder doesn't found construction sites to build then convert them to harvesters to energize structures.
         <br>     ***note***  we don't convert all creeps at once instead we convert one by one so we can have a building and energizing case
