@@ -8,7 +8,7 @@
 * Build structures.
   
   
-### We have 2 main roles here Harvest/Build and Upgrade creeps.
+### 2 Main Roles.
   
   * Upgrader creeps should work on upgrading the Room Controller.
   
